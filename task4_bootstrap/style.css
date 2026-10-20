@@ -1,0 +1,269 @@
+/* Основные размеры и фон страницы. */
+body {
+  background-color: #f8f9fa;
+  font-size: 16px;
+}
+
+.navbar-brand {
+  font-size: 16px;
+  letter-spacing: 0.3px;
+}
+
+.navbar .nav-link dropdown-item {
+  font-size: 14px;
+}
+
+main.container {
+  max-width: 1040px;
+  padding-top: 48px;
+  padding-bottom: 32px;
+}
+
+/* Приветственный блок. */
+.welcome {
+  padding: 48px 40px;
+  background-color: #fbfcfd;
+}
+
+.welcome h1 {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.welcome p {
+  max-width: 760px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #6c757d;
+  margin-bottom: 18px;
+}
+
+.welcome .btn {
+  font-size: 15px;
+}
+
+/* Карточки. */
+.card-header {
+  padding: 14px 16px;
+  font-size: 15px;
+}
+
+.card-body {
+  padding: 18px 14px 14px;
+}
+
+.card-title {
+  font-size: 18px !important;
+}
+
+.card-body p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.card-body .small {
+  font-size: 13px;
+}
+
+.progress {
+  height: 6px;
+}
+
+.stat {
+  padding: 14px 8px;
+}
+
+.stat > div {
+  font-size: 28px;
+}
+
+.stat small {
+  color: #495057;
+  font-size: 13px;
+}
+
+.card-body .btn {
+  font-size: 13px;
+}
+
+/* Форма регистрации. */
+.registration {
+  padding: 32px;
+}
+
+.registration h2 {
+  font-size: 29px;
+}
+
+.registration > p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+fieldset {
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fbfcfd;
+}
+
+legend {
+  float: none;
+  width: auto;
+  padding: 0 8px;
+  margin-bottom: 8px;
+  background-color: #fff;
+  color: #0d6efd;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.form-label,
+.form-check-label {
+  font-size: 14px;
+}
+
+.form-control,
+.form-select {
+  font-size: 14px;
+}
+
+.form-control::placeholder {
+  font-size: 13px;
+}
+
+.experience {
+  padding-top: 4px;
+}
+
+.form-actions .btn,
+.registration form > .d-flex .btn {
+  font-size: 14px;
+}
+
+footer {
+  color: #adb5bd;
+  font-size: 13px;
+}
+
+/* Планшеты и телефоны. */
+@media (max-width: 767.98px) {
+  main.container {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .welcome {
+    padding: 24px;
+  }
+
+  .welcome h1 {
+    max-width: 360px;
+    font-size: 30px;
+  }
+
+  .welcome p {
+    font-size: 15px;
+  }
+
+  .welcome .btn {
+    font-size: 14px;
+  }
+
+  .card-header {
+    font-size: 14px;
+  }
+
+  .card-title {
+    font-size: 18px !important;
+  }
+
+  .card-body {
+    padding: 16px 12px 12px;
+  }
+
+  .card-body p {
+    font-size: 14px;
+  }
+
+  .registration {
+    padding: 24px;
+  }
+
+  .registration h2 {
+    font-size: 26px;
+  }
+
+  .registration > p {
+    font-size: 14px;
+  }
+
+  .form-label,
+  .form-check-label {
+    font-size: 13px;
+  }
+
+  .experience .form-check-inline {
+    margin-bottom: 6px;
+  }
+}
+
+/* Очень узкие экраны. */
+@media (max-width: 575.98px) {
+  .welcome {
+    padding: 20px 16px;
+  }
+
+  .welcome h1 {
+    font-size: 27px;
+  }
+
+  .welcome p {
+    font-size: 14px;
+  }
+
+  .welcome .btn {
+    font-size: 13px;
+  }
+
+  .card-title {
+    font-size: 17px !important;
+  }
+
+  .registration {
+    padding: 18px 12px;
+  }
+
+  .registration h2 {
+    font-size: 23px;
+  }
+
+  .registration > p {
+    font-size: 13px;
+  }
+
+  fieldset {
+    padding: 14px 10px;
+  }
+
+  legend {
+    font-size: 15px;
+  }
+
+  .form-label,
+  .form-check-label {
+    font-size: 12px;
+  }
+
+  .form-control,
+  .form-select {
+    font-size: 13px;
+  }
+
+  .form-actions .btn {
+    padding-right: 12px;
+    padding-left: 12px;
+    font-size: 12px;
+  }
+}
